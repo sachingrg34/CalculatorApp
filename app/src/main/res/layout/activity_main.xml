@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="#ffffff">
+
+
+    <TextView
+        android:id="@+id/Text_display"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="35dp"
+
+        android:background="#FFFFFF"
+        android:gravity="end|bottom"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="60sp" />
+
+    <GridLayout
+        android:id="@+id/grid_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        android:background="#FFFFFF"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBack"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_brown"
+            android:backgroundTint="@null"
+            android:text="⌫"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPercent"
+            android:text="%"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_brown"
+            android:backgroundTint="@null"
+            android:layout_margin="4dp"
+            android:textSize="50sp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnClear"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_brown"
+            android:backgroundTint="@null"
+            android:text="C"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDivide"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_yellow"
+            android:backgroundTint="@null"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMultiply"
+        android:layout_margin="4dp"
+        android:background="@drawable/btn_yellow"
+        android:backgroundTint="@null"
+        android:text="*"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"/>
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn5"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn6"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMinus"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_yellow"
+            android:backgroundTint="@null"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPlus"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_yellow"
+            android:backgroundTint="@null"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPlusMinus"
+            android:text="±"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:layout_margin="4dp"
+            android:textSize="50sp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn0"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDot"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_black"
+            android:backgroundTint="@null"
+            android:text="."
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEquals"
+            android:layout_margin="4dp"
+            android:background="@drawable/btn_yellow"
+            android:backgroundTint="@null"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>
