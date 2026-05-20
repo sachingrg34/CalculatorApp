@@ -63,6 +63,4 @@ Additional Features
 
 4. Plus/Minus (±) toggle
 
-5. Custom color theme
-
-6. Improved UI styling
+5. Improved UI styling
