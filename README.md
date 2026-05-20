@@ -1,3 +1,5 @@
+
+
 Calculator App
 
 Project Description
@@ -5,9 +7,12 @@ Project Description
 This Android Calculator App, developed with Java and Android Studio, provides real‑time arithmetic calculations and a clean, responsive interface. 
 It was completed as part of the CST Android development assignment, focusing on improving skills in layout design, user interaction handling, and core Java logic.
 
+
 Features Implemented
 
 Basic arithmetic operations:
+
+
 
 1. Addition (+)
 
@@ -32,6 +37,9 @@ Basic arithmetic operations:
 11. Clean and responsive UI using GridLayout
 
 12. Smooth button interactions
+
+    <img width="100" height="200" alt="cal" src="https://github.com/user-attachments/assets/d411d958-07d7-4abb-9a63-979300da8548" />
+
 
 
 How to use the App
