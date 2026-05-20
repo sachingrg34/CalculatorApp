@@ -7,31 +7,31 @@ It was completed as part of the CST Android development assignment, focusing on 
 
 Features Implemented
 
-1. Basic arithmetic operations:
+Basic arithmetic operations:
 
-2. Addition (+)
+1. Addition (+)
 
-3. Subtraction (−)
+2. Subtraction (−)
 
-4. Multiplication (×)
+3. Multiplication (×)
 
-5. Division (÷)
+4. Division (÷)
 
-6. Number buttons (0–9)
+5. Number buttons (0–9)
 
-7. Operator buttons (+, −, ×, ÷)
+6. Operator buttons (+, −, ×, ÷)
 
-8. Equals (=) button to calculate results
+7. Equals (=) button to calculate results
 
-9. Clear (C) button to reset the calculator
+8. Clear (C) button to reset the calculator
 
-10. Division‑by‑zero error handling
+9. Division‑by‑zero error handling
 
-11. Real‑time display updates
+10. Real‑time display updates
 
-12. Clean and responsive UI using GridLayout
+11. Clean and responsive UI using GridLayout
 
-13. Smooth button interactions
+12. Smooth button interactions
 
 
 How to use the App
